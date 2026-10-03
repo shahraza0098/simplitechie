@@ -147,7 +147,7 @@ export function SelectedWork() {
                     whileInView={{ opacity: 1, x: 0, scale: 1 }}
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-                    className="w-full aspect-[4/3] lg:aspect-[16/12] xl:aspect-[16/11] bg-card border border-border/10 rounded-[28px] md:rounded-[36px] overflow-hidden shadow-sm relative flex items-center justify-center p-6 sm:p-10 lg:p-12 xl:p-16"
+                    className="w-full aspect-[4/3] lg:aspect-[16/12] xl:aspect-[16/11] bg-card border border-border/10 rounded-[28px] md:rounded-[36px] overflow-hidden shadow-sm relative flex items-center justify-center p-3 sm:p-4 md:p-5 lg:p-6 xl:p-8"
                   >
                      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-accent/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
                      
