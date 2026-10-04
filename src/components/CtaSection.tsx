@@ -87,11 +87,11 @@ export function CtaSection() {
            </motion.p>
            
            <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto mb-32 md:mb-48">
-             <Link href="#contact" className="group px-10 py-5 rounded-[6px] bg-foreground text-background font-medium text-[14px] hover:bg-foreground/90 transition-all duration-300 flex items-center justify-center gap-3">
+             <Link href="/contact" className="group px-10 py-5 rounded-[6px] bg-foreground text-background font-medium text-[14px] hover:bg-foreground/90 transition-all duration-300 flex items-center justify-center gap-3">
                START A PROJECT
                <ArrowRight size={16} className="group-hover:translate-x-1.5 transition-transform duration-300" />
              </Link>
-             <Link href="#work" className="group px-10 py-5 rounded-[6px] bg-transparent text-foreground font-medium text-[14px] hover:bg-muted/10 transition-colors duration-300 flex items-center justify-center border border-border/50 hover:border-border">
+             <Link href="/work" className="group px-10 py-5 rounded-[6px] bg-transparent text-foreground font-medium text-[14px] hover:bg-muted/10 transition-colors duration-300 flex items-center justify-center border border-border/50 hover:border-border">
                VIEW OUR WORK
              </Link>
            </motion.div>

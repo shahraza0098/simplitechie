@@ -20,7 +20,7 @@ const itemVariants = {
 };
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = 2026;
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
